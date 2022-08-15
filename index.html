@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="team-container">
+                <h3 class="team-title">HOME</h3>
+                <div class="team-score">
+                    <p id="home-points" class="team-points">0</p>
+                </div>    
+                <div class="team-points-btns">
+                    <button class="add-points-btn btns" onclick="addOnePointHome()">+1</button>
+                    <button class="add-points-btn btns" onclick="addTwoPointsHome()">+2</button>
+                    <button class="add-points-btn btns" onclick="addThreePointsHome()">+3</button>
+                </div>
+            </div>
+            <div class="team-container">
+                <h3 class="team-title">GUEST</h3>
+                <div class="team-score">
+                    <p id="guest-points" class="team-points">0</p>
+                </div>    
+                <div class="team-points-btns"> 
+                    <button class="add-points-btn btns" onclick="addOnePointGuest()">+1</button>
+                    <button class="add-points-btn btns" onclick="addTwoPointsGuest()">+2</button>
+                    <button class="add-points-btn btns" onclick="addThreePointsGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="reset-score">
+            <button id="reset-score-btn" class="btns" onclick="resetScore()">NEW GAME</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

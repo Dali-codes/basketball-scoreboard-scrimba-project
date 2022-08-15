@@ -1,0 +1,86 @@
+@font-face {
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");    
+    font-family: CursedTimerUlil-Aznm; 
+} 
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: #1B244B;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 430px;
+    margin: 70px auto 40px auto;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 155px;
+}
+
+.team-title {
+    color: #fff;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.team-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.team-points {
+    font-family: CursedTimerUlil-Aznm;
+    color: #F94F6D;
+    font-size: 90px; 
+    margin: 0; 
+    align-self: flex-end;
+}
+
+.team-points-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+    
+.btns {    
+    font-size: 18px;
+    color: #9AABD8;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.btns:hover {
+    cursor: pointer;
+}
+
+.add-points-btn {
+    font-family: CursedTimerUlil-Aznm;
+    padding: 10px 8px;
+}
+
+.reset-score {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#reset-score-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 15px;
+}
+
+
+
